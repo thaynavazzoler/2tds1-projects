@@ -56,7 +56,7 @@ class CarsList {
     }
 }
 
-const list = new list();
+const list = new CarsList();
 
 function Creatcars(){
     const brand = document.getElementById("inp1").value;
