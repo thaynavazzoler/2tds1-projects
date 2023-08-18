@@ -38,6 +38,12 @@ class CategoryService{
     getCategoryById(id) {
         return this.categories.find((category)=> category.id === id);
     }
+
+    //U => Update
+    updateCategory(id, name){
+        const category = this.getCategoryById(id);
+        category.name = name;
+    }
     
 }
 
