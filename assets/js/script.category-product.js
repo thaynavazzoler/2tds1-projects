@@ -101,3 +101,9 @@ function findCategory(id){
     console.log(category.name);
 
 }
+
+function editCategory(id, name){
+    categoriesList.updateCategory(id, name);
+
+    console.log(categoriesList.categories);
+}
